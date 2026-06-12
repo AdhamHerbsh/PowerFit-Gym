@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - PowerFit Gym</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg scrolled">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <span class="logo-icon"><i class="bi bi-lightning-charge-fill"></i></span>
+        POWERFIT GYM
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="bi bi-list"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="classes.html">Classes</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="d-flex align-items-center gap-3">
+          <button class="theme-toggle"><i class="bi bi-moon"></i></button>
+          <a href="contact.html" class="btn btn-primary btn-sm">Join Now</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" style="min-height: 70vh;">
+    <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=1920&q=80');"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <div class="row">
+        <div class="col-lg-6" data-reveal>
+          <div class="hero-tag">About PowerFit</div>
+          <h1 class="hero-title">
+            BUILT FOR<br>
+            <span class="highlight">GREATNESS</span>
+          </h1>
+          <p class="hero-desc">
+            At PowerFit Gym, we don't just train bodies; we engineer elite performance through scientific rigor and unshakeable discipline.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR STORY -->
+  <section class="section-padding-lg" id="story">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6" data-reveal>
+          <div class="section-tag-line">
+            <span></span>
+            <span>Our Story</span>
+          </div>
+          <h2 class="display-5 fw-bold text-uppercase mb-4">
+            The Pursuit Of<br>Physical Excellence
+          </h2>
+          <p class="text-secondary mb-4">
+            Founded in 2014, PowerFit Gym began as a small warehouse collective of elite athletes and strength coaches who found traditional fitness spaces lacking the grit and precision required for professional results.
+          </p>
+          <p class="text-secondary mb-4">
+            Today, we represent the pinnacle of high-performance training. Our mission is to provide an environment where high-tech data meets raw iron. We believe that every individual has an untapped reservoir of power—our job is to provide the tools, the coaching, and the culture to unleash it.
+          </p>
+
+          <div class="row g-4 mt-2">
+            <div class="col-6">
+              <div class="stat-item text-start">
+                <div class="stat-number" data-counter="10" data-suffix="+">0+</div>
+                <div class="stat-label">Years Excellence</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="stat-item text-start">
+                <div class="stat-number" data-counter="500" data-suffix="+">0+</div>
+                <div class="stat-label">Elite Athletes</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6" data-reveal data-reveal-delay="100">
+          <div class="position-relative">
+            <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c149a?w=800&h=600&fit=crop" 
+                 alt="PowerFit Gym Interior" 
+                 class="img-fluid rounded-4" 
+                 style="border: 1px solid var(--border-color);">
+            <div class="position-absolute" style="top: -20px; right: -20px; width: 100px; height: 100px; border: 2px solid var(--accent-coral); border-radius: 12px; opacity: 0.5;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEET YOUR COACHES -->
+  <section class="section-padding" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="text-center mb-5" data-reveal>
+        <div class="section-tag">The Performance Team</div>
+        <h2 class="display-5 fw-bold text-uppercase">Meet Your Coaches</h2>
+      </div>
+
+      <div class="row g-4">
+        <!-- Coach Sarah -->
+        <div class="col-lg-3 col-md-6" data-reveal data-reveal-delay="0">
+          <div class="trainer-card">
+            <div class="trainer-img">
+              <img src="https://images.unsplash.com/photo-1611672585731-fa1060a7a3c2?w=400&h=500&fit=crop&crop=face" alt="Coach Sarah">
+              <span class="trainer-tag">Strength</span>
+            </div>
+            <div class="trainer-info">
+              <h3 class="trainer-name">Coach Sarah</h3>
+              <p class="trainer-role">Lead Strength Coach</p>
+              <p class="trainer-desc">Specialize in Olympic lifting and hypertrophy-specific programming.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coach Marcus -->
+        <div class="col-lg-3 col-md-6" data-reveal data-reveal-delay="100">
+          <div class="trainer-card">
+            <div class="trainer-img">
+              <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?w=400&h=500&fit=crop&crop=face" alt="Coach Marcus">
+              <span class="trainer-tag">Conditioning</span>
+            </div>
+            <div class="trainer-info">
+              <h3 class="trainer-name">Coach Marcus</h3>
+              <p class="trainer-role">Head of Conditioning</p>
+              <p class="trainer-desc">Focus on high-intensity metabolic conditioning and track performance.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coach Elena -->
+        <div class="col-lg-3 col-md-6" data-reveal data-reveal-delay="200">
+          <div class="trainer-card">
+            <div class="trainer-img">
+              <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=500&fit=crop&crop=face" alt="Coach Elena">
+              <span class="trainer-tag">Mobility</span>
+            </div>
+            <div class="trainer-info">
+              <h3 class="trainer-name">Coach Elena</h3>
+              <p class="trainer-role">Mobility Specialist</p>
+              <p class="trainer-desc">Expert in kinetic chain restoration and functional movement patterns.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coach David -->
+        <div class="col-lg-3 col-md-6" data-reveal data-reveal-delay="300">
+          <div class="trainer-card">
+            <div class="trainer-img">
+              <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=500&fit=crop&crop=face" alt="Coach David">
+              <span class="trainer-tag">Combat</span>
+            </div>
+            <div class="trainer-info">
+              <h3 class="trainer-name">Coach David</h3>
+              <p class="trainer-role">Combat Fitness Lead</p>
+              <p class="trainer-desc">Specialist in boxing conditioning and explosive power development.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8" data-reveal>
+          <h2 class="cta-title">Ready To Forge Your Best Self?</h2>
+          <p class="cta-desc">
+            Join the ranks of elite performers who have chosen PowerFit Gym as their proving ground. Your transformation starts now.
+          </p>
+        </div>
+        <div class="col-lg-4 text-lg-end" data-reveal data-reveal-delay="100">
+          <div class="d-flex gap-3 justify-content-lg-end flex-wrap">
+            <a href="contact.html" class="btn btn-light btn-lg">Start Training</a>
+            <a href="classes.html" class="btn btn-outline" style="border-color: rgba(255,255,255,0.3); color: #fff;">View Classes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <div class="footer-brand">
+            <span class="logo-icon"><i class="bi bi-lightning-charge-fill"></i></span>
+            POWERFIT GYM
+          </div>
+          <p class="footer-desc">
+            Engineering elite human performance through discipline, science, and raw grit.
+          </p>
+          <div class="footer-social">
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h4 class="footer-title">Legal</h4>
+          <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-5 col-md-6">
+          <h4 class="footer-title">Connect</h4>
+          <div class="footer-social mb-3">
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-strava"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2024 PowerFit Gym. Engineered for High Performance.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
